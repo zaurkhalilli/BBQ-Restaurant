@@ -9,7 +9,7 @@
   return (
     <div>
       <Layout>
-        
+        <Home/>
       </Layout>
     </div>
   );
