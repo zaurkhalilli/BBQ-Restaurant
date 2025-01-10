@@ -8,9 +8,15 @@
   const App = () => {
   return (
     <div>
+      <BrowserRouter>
       <Layout>
-        <Home/>
-      </Layout>
+        <Routes>
+          <Route index path='/' element={<Home/>} />
+          <Route index path='/menu' element={<Menu/>} />
+        </Routes>
+      </Layout> 
+      </BrowserRouter>
+     
     </div>
   );
 }

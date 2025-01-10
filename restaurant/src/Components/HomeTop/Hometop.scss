@@ -1,20 +1,36 @@
-.Hometop{
-    background-image: url('https://media.istockphoto.com/id/1248298359/photo/luxury-restaurant-interior-at-night.jpg?s=1024x1024&w=is&k=20&c=NPAvut6UUeSeCy1oughC18lKORDkXjn5e0wt78bboP4=');
+body{
+    background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
     background-size: cover;
-    
+}
+.Hometop{
     h1{
-        max-width: 600px;
+        max-width: 700px;
         color: white;
         padding-left: 80px;
         padding-top: 50px;
         font-size: 4.5rem;
     }
     h4{
-        max-width: 500px;
-        color: white;
+        max-width: 600px;
+        color: rgb(255, 255, 255);
         padding-left: 80px;
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding-top: 20px;
+    }
+    .reservebtn{
+        padding-top: 20px;
+        padding-left: 80px;
+    button{
+        background-color: #fb8f2c;
+        color: black;
+        padding: 15px;
+        font-weight: 640;
+        font-size: larger;
+        letter-spacing: 1.4px;
+        width: 200px;
+        border: none;
+        border-radius: 10px;
+    }
     }
 }
