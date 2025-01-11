@@ -1,5 +1,4 @@
 import React from "react";
-import Darkmode from '../Darkmode'
 import styled from "../Navbar/Navbar.scss";
 import { Link } from 'react-router-dom';
 const Navbar = () => {

@@ -3,8 +3,7 @@ import React, { useState } from "react";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
-
-  // Menü öğeleri
+  //Menu Items: 
   const menuItems = [
     { id: 1, name: "Smoked Brisket", image: "https://simplyhomecooked.com/wp-content/uploads/2024/04/smoked-beef-brisket-20.jpg", price: 15.99 },
     { id: 2, name: "Burger", image: "https://www.tastingtable.com/img/gallery/what-makes-restaurant-burgers-taste-different-from-homemade-burgers-upgrade/intro-1662064407.jpg", price: 8.99 },
@@ -83,5 +82,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
