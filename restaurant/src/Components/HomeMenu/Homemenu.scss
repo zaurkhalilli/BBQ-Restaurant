@@ -1,0 +1,44 @@
+.homemenu{
+padding-top: 100px;
+background-color: #0b1214;
+padding-bottom: 100px;
+h2{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+.homemenubtn{
+    padding-top: 15px;
+    text-align: center;
+    button{
+        padding: 20px;
+        background-color: orange;
+        color: #0b1214;
+        font-size: 1.3rem;
+        font-weight: 640;
+        width: 200px;
+        border: none;
+        border-radius: 8px;
+    }
+}
+}
+.homemenuimg{
+    padding-top: 50px;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    margin: 0 auto;
+    img{
+        width: 350px;
+        height: 300px;
+        object-fit: contain;
+    }
+    h4{
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+.homemenuimg:hover {
+    transform: scale(1.10);
+  }
