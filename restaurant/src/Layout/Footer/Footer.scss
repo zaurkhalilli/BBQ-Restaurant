@@ -1,0 +1,26 @@
+.footer{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #0b1214;
+    .footerlist{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        a{
+            color: white;
+            font-size: 1.1rem;
+            outline: none;
+            text-decoration: none;
+            font-weight: 640;
+        }
+   }
+   p{
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 0.9rem;
+}
+   .footericons{
+    display: flex;
+    gap: 20px;
+   }
+}

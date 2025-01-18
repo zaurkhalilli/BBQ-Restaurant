@@ -1,14 +1,22 @@
 .homeimg{
     background-image: url('https://websitedemos.net/restaurant-bbq-02/wp-content/uploads/sites/1435/2023/12/5-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     p{
-        color: white;
+        color: rgb(255, 255, 255);
         text-align: center;
         margin: auto;
-        max-width: 800px;
-        padding-top: 150px;
-        padding-bottom: 150px;
-        font-size: 4rem;
+        max-width: 900px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-style: italic;
+        text-shadow:  
+        -2px -2px 0 black,
+        2px -2px 0 black, 
+       -2px  2px 0 black, 
+        2px  2px 0 black; ;
+        font-size: 3.8rem;
         outline: black;
         font-weight: 640;
     }
