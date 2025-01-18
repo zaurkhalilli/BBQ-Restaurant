@@ -17,7 +17,7 @@ const Footer = () => {
                     <div className="col-sm-7">
                     <div className="footerlist">
                         <Link to="/">Home</Link>
-                        <a href="">About</a>
+                        <Link to="/about">About</Link>
                         <Link to="/menu">Menu</Link>
                         <a href="">Contact</a>
                     </div>

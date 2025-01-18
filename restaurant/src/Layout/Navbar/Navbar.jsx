@@ -7,7 +7,7 @@ const Navbar = () => {
            <img src="https://websitedemos.net/restaurant-bbq-02/wp-content/uploads/sites/1435/2023/12/Logo.png" alt="" />
             <div className="navmenu">
            <Link to="/">Home</Link>
-            <a href="">About</a>
+            <Link to="/about">About</Link>
             <Link to="/menu">Menu</Link>
             <a href="">Contact</a>
             </div>

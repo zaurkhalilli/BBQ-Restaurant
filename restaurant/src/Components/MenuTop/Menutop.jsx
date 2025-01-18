@@ -1,7 +1,7 @@
 import styled from '../MenuTop/Menutop.scss';
 import React, { useState } from "react";
 
-function App() {
+function Menutop() {
   const [searchTerm, setSearchTerm] = useState("");
   const menuItems = [
     { id: 1, name: "Smoked Brisket", image: "https://simplyhomecooked.com/wp-content/uploads/2024/04/smoked-beef-brisket-20.jpg", price: 15.99 },
@@ -81,4 +81,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default Menutop;
