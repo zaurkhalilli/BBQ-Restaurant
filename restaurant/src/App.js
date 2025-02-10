@@ -14,6 +14,7 @@
           <Route index path='/' element={<Home/>} />
           <Route index path='/menu' element={<Menu/>} />
           <Route index path='/about' element={<About/>} />
+          <Route index path='/contact' element={<Contact/>} />
         </Routes>
       </Layout> 
       </BrowserRouter>

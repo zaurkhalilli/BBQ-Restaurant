@@ -19,7 +19,7 @@ const Footer = () => {
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
                         <Link to="/menu">Menu</Link>
-                        <a href="">Contact</a>
+                        <Link to="/contact">Contact</Link>
                     </div>
                     <p>Copyright © 2025 BBQ Restaurant. All Rights Reserved.</p>
                     </div>
