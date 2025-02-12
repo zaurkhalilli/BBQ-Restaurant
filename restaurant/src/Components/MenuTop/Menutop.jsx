@@ -51,7 +51,7 @@ function Menutop() {
 
   return (
     <div className="Menutop">
-      <h1>Our Menu</h1>
+      <span>Our Menu</span>
       
      <div className="input"> 
         <input type="text"

@@ -1,0 +1,74 @@
+.contactlogin{
+    padding-top: 40px;
+    background-color: #0b1214;
+    .container{
+        padding-top: 50px;
+        h2{
+            color: white;
+            font-size: 2.6rem;
+        }
+        h5{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: rgba(255, 255, 255, 0.815);
+        }
+        p{
+            font-size: 1.3rem;
+            color: white;
+        }
+        span{
+            color: white;
+        }
+        hr{
+            color: white;
+            font-weight: 640;
+        }
+    }
+    .details{
+        background-color: #0e1c21;
+        text-align: center;
+        border-radius: 8px;
+        .name{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .lastname{
+            padding-bottom: 50px;
+        }
+        .email{
+            padding-bottom: 50px;
+        }
+        .text{
+            padding-bottom: 20px;
+            input{
+                padding-bottom: 50px;
+            }
+        }
+        input{
+            padding: 20px;
+            width: 80%;
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+            border-radius: 8px;
+        }
+        button{
+            color: black;
+            width: 150px;
+            font-size: 1.2rem;
+            font-weight: 640;
+            background-color: orange;
+            padding: 12px;
+            border-radius: 7px;
+            border: none;
+        }
+    }
+    .map{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        iframe{
+            height: 500px;
+        width: 100%;
+        }
+    }
+}

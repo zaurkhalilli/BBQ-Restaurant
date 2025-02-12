@@ -5,6 +5,7 @@
         img{
             position: absolute;
             object-fit: cover;
+            width: 25%;
         }
         p{
             position: relative;
@@ -49,5 +50,10 @@
             }
         }
     }
+    @media screen and (max-width: 769px) {
+        .leftimg {
+            display: none;
+        }
     padding-bottom: 100px;
 }
+};

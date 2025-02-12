@@ -7,7 +7,9 @@ const Homewhyus = () => {
       <div className="container">
         <div className="row">
             <div className="col-md-6">
-            <img src="https://websitedemos.net/restaurant-bbq-02/wp-content/uploads/sites/1435/2023/12/image.jpg" alt="" />
+           <div className="backgrimg">
+           <img src="https://websitedemos.net/restaurant-bbq-02/wp-content/uploads/sites/1435/2023/12/image.jpg" alt="" />
+           </div>
             </div>
             <div className="col-md-6">
             <p>Why Us</p>
